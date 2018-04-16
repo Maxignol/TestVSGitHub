@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.lblSalut = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -41,11 +42,21 @@
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // lblSalut
+            // 
+            this.lblSalut.AutoSize = true;
+            this.lblSalut.Location = new System.Drawing.Point(513, 280);
+            this.lblSalut.Name = "lblSalut";
+            this.lblSalut.Size = new System.Drawing.Size(31, 13);
+            this.lblSalut.TabIndex = 1;
+            this.lblSalut.Text = "Salut";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblSalut);
             this.Controls.Add(this.checkBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label lblSalut;
     }
 }
 
